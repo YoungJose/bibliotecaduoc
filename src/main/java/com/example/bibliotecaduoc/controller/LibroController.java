@@ -1,7 +1,7 @@
 package com.example.bibliotecaduoc.controller;
 
 import com.example.bibliotecaduoc.model.Libro;
-import com.example.bibliotecaduoc.service.LibroService;
+import com.example.bibliotecaduoc.services.LibroService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
