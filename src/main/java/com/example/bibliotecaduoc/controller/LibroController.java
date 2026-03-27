@@ -41,6 +41,11 @@ public class LibroController {
         return libroService.deleteLibro(id);
     }
 
+    @GetMapping("/total")
+    public int totalLibrosV2(){
+        return libroService.totalLibrosV2();
+    }
+
 
 
 
